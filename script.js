@@ -1,4 +1,4 @@
-const API_KEY = 'ac7dee355a3747db899753f65e48987f';
+const API_KEY = 'YOUR API KEY';
 const API_URL = 'https://api.rawg.io/api/games';
 
 document.getElementById('fetch-button').addEventListener('click', fetchGames);
