@@ -9,9 +9,38 @@
 <body>
     <div class="details-container">
         <button id="back-button">Back</button>
-        <div id="details-content"></div>
+        <div class="game-banner"></div>
+        <div class="game-details">
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="label">Game Name</span>
+                    <span class="value game-title"></span>
+                </div>
+                <div class="info-item">
+                    <span class="label">Released</span>
+                    <span class="value release-date"></span>
+                </div>
+                <div class="info-item">
+                    <span class="label">Genre</span>
+                    <div class="value genres"></div>
+                </div>
+                <div class="info-item">
+                    <span class="label">Publisher</span>
+                    <span class="value publisher"></span>
+                </div>
+                <div class="info-item">
+                    <span class="label">Available on</span>
+                    <span class="value platforms"></span>
+                </div>
+            </div>
+            <div class="additional-info">
+                <h2>About</h2>
+                <div id="game-description"></div>
+                <h2>System Requirements</h2>
+                <div class="requirements"></div>
+            </div>
+        </div>
     </div>
-
-    <script src="details.js"></script>
+    <script src="detail.js"></script>
 </body>
 </html>
